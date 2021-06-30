@@ -1,0 +1,115 @@
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterRoot = localProperties.getProperty('flutter.sdk')
+if (flutterRoot == null) {
+    throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+
+android {
+    compileSdkVersion 28
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+
+    defaultConfig {
+        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+        applicationId "com.loadafrica.2eco_admin"
+        minSdkVersion 20
+        targetSdkVersion 28
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+    }
+
+    buildTypes {
+        release {
+            // TODO: Add your own signing config for the release build.
+            // Signing with the debug keys for now, so `flutter run --release` works.
+            signingConfig signingConfigs.debug
+        }
+    }
+
+    flavorDimensions "app", "environment"
+//    productFlavors {
+//        DEV {
+//            dimension "environment"
+//            // buildConfigField "String", "BASE_URL", '"http://40.71.227.15:3001/api/"'
+//            // buildConfigField "String", "BASE_URL", '"http://52.170.82.63:3001/api/"'
+//            buildConfigField "String", "BASE_URL", '"http://206.189.117.106:8001/"'
+//            buildConfigField "String", "IMAGE_BASE_URL", '"http://206.189.117.106:8001"'
+//            buildConfigField "String", "WEB_SOCKET_URL", '"ws://206.189.117.106:8001/"'
+//            buildConfigField "String", "API_KEY", '"04cfe9a0bdf509a55b5e4d43a9ac8229"'
+//
+//            //dimension "test"
+//        }
+//        TESTING {
+//            dimension "environment"
+//            // buildConfigField "String", "BASE_URL", '"http://40.71.227.15:3002/api/"'
+//            // buildConfigField "String", "BASE_URL", '"http://52.170.82.63:3002/api/"'
+//            buildConfigField "String", "BASE_URL", '"https://api.stagings.load-africa.com"'
+//            buildConfigField "String", "IMAGE_BASE_URL", '"https://api.stagings.load-africa.com"'
+//            buildConfigField "String", "WEB_SOCKET_URL", '"https://api.stagings.load-africa.com/socket.io/"'
+//            buildConfigField "String", "API_KEY", '"97ef50a0726558cbc71bac0fe41fcb69"'
+//
+//            //dimension "stage"
+//        }
+//        CLIENT {
+//            dimension "environment"
+//            //   buildConfigField "String", "BASE_URL", '"http://52.178.221.76:3002/api/"'
+//            buildConfigField "String", "BASE_URL", '"https://api.load-africa.com/"'
+//            buildConfigField "String", "IMAGE_BASE_URL", '"https://api.load-africa.com"'
+//            buildConfigField "String", "WEB_SOCKET_URL", '"wss://api.load-africa.com/"'
+//            //buildConfigField "String", "API_KEY", '"04cfe9a0bdf509a55b5e4d43a9ac8229"'
+//
+//            //buildConfigField "String", "WEB_SOCKET_URL", '"http://192.168.4.22:3000"'
+//
+//            //dimension "default"
+//        }
+//        AFRO {
+//            dimension "app"
+//            applicationId "com.loadafrica.2eco_admin"
+//            versionNameSuffix "-2ecoadmin"
+//            ext {
+//                DEV = "04cfe9a0bdf509a55b5e4d43a9ac8229"
+//                CLIENT = "80749085092106bd7b177167647cc644"
+//                TESTING = "5864e82abdff9a3a8f7202d9cfe52e8e"
+//                appName = "2eco Admin"
+//                CURRENCY = "ZAR"
+//                PRIMARY_COLOR = Color(0xFFE8733E); //2eco
+//                LOGO = "assets/images/2eco_logo.png";
+//            }
+//        }
+//}
+
+    flutter {
+        source '../..'
+    }
+
+    dependencies {
+        implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    }
+}

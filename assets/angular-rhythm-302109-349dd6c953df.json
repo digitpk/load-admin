@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "angular-rhythm-302109",
+  "private_key_id": "349dd6c953df8d8dc3971ffcf3c6bbfb103cfc90",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDW36DWESRiBIrs\ntS4Xd0Zwr8qUvvXfSULw4SLqlsJD32aBk7560xTdtZs/785CLNxQPq2D/kCZ4riX\n+4JVoqWrrWIXHrQV0qRI19Us62ugj2YKAEjUnODtgnX0eJw+ownmEKvtasJinCMq\nSW+mnLqZeRHNU9yjEICUSEYjTwmOQN1gb76d8B2+n5WFPp1ukGZViTkKt6y5skBn\n+K2Hd7GD94zZyMdR1fVryHz5beGTbX7/U9ak5p53eFC4iKlbgXq6FpBdS0DAE1Ga\nrDp0FUZjfQ6nyrJ44TzTS6/HeXvpJLWcIVs6RxKOAYa6RkvaHrKPAWFjEL0nr8Xz\nrM3sJdLZAgMBAAECggEAF77l7NI/JY/f9HG/UruNLsXWiuKhlFfpzGns7GTVuh91\nmgtESRmLnEbGDeZH8ns3q6yJi2UtKXRrNuyGBkWvrk2+YdS0TRcWrbAgcFLh9X/z\nZFaMteZSWx0IQQiVJ7znyqN8BIRAUBp2LmWoL47xdiVxiLHkV6bqtrhX++3vnecs\nV5sfejDyKFjUfj9MuKpeCNdJYS0wD7ahjEV/l9o1X3u/nJ1vcfuz9TQrs2n0wGpn\nAqjLquKltPW1W+2/yrV4VWwei9ysdJW/09dwPo901LXAH3030eu2D4NKD5z+jJMp\nUS4/2gulPLjqTS3ihc3eRdANmsBCnzFneqLZroQrwQKBgQDuOAmGfd7UhZZU/Ey0\nhuIr4UdxyDikvLuHjUeEMh38f3S1pS30nufH0lKy/2I70QEo5keGquY2ygUHjlXx\n9/ipcKqgIKugNqqxf+WIroAwc7blU4lZRN92yG/mdaydc6So0Vi8wNhX3W1Br6k6\nr8XdGL/AyQULhWugBPvlBH658QKBgQDm6YAtuN/7gJQnRt8JH/wtyuYHFHRZGFnO\n02iv+Z1RWahSmzudL8U7FmywxXqmC/mDtfpBmgYKIM7XOB73oh/jgw5ya450d7pe\nRIv67Bp4mgUDn4g5yuJVS6ecm/A+2PoEr4LcWzqMFuu3lGywCwiTcffF3UM6dqEo\nUR7c371/aQKBgCvEffOI4sz3MlSw+kLc2Wcof+Dm4Yla57WS/oXKU3oVzNKm45ej\nLoCnIuyiQWEuGGF0VcXnVl7QpTXrL91CKxyuh5reBcps4NW14u1G6mR8jij6PSz6\nm3gOgYi9LBbNrX4a4Ivlfpo+I5nC9XvD2b2yk2CPTm78d3ayE7nTJplxAoGAeiCp\ngIU1QanBsfxT3lmiYP3dJ4Vz++NbLH638crNn8cRtY8QupQXdqbnmZ74vXW75CON\nVsEFzLmJbF7sUgDXaNdZ/r5QO91PHqiWeIIDhiG/4SixPg/GIWLAJZ58NGFB6tSB\nG9bMYmeFCDViPsG3KXSvnWDnO7aeidpNvng/m3ECgYB4ggo2QAHpekES9Fp94ILV\nU7cjBOfDkQsS86CB0d9q5Gj+UisPhhEUJoJqzf/ZMT3Sj10zaIYU0eBf/+NdFv5M\nWUPklkBna1I0csUuLTtq934SJYgZ7wTMOPb2gQV/6d3KfNA0IFeenkl/xcanFNZI\nF70r/rDgOIQhGn+TgEeJYA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "govy-302@angular-rhythm-302109.iam.gserviceaccount.com",
+  "client_id": "101486712073684150167",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/govy-302%40angular-rhythm-302109.iam.gserviceaccount.com"
+}

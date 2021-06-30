@@ -1,0 +1,73 @@
+{
+  "status": "1",
+  "apiEndpoint" : "",
+  "authentication" : {
+    "required" : true,
+    "type": "apiKey",
+    "apiKey": "A17bJ73HkDd5FY8W646SgcYZoU5XNKasW"
+  },
+  "fields": [
+    {
+      "name": "firstName",
+      "required" : true,
+      "hint": "First Name",
+      "type": "String",
+      "hasOptions": false,
+      "options": [
+
+      ]
+    },
+    {
+      "name": "lastName",
+      "required" : true,
+      "hint": "Last Name",
+      "type": "String",
+      "hasOptions": false,
+      "options": [
+
+      ]
+    },
+    {
+      "name": "age",
+      "required" : true,
+      "hint": "Age",
+      "type": "number",
+      "hasOptions": false,
+      "options": [
+
+      ]
+    },
+    {
+      "name": "postalAddress",
+      "required" : true,
+      "hint": "Postal Address",
+      "type": "String",
+      "hasOptions": false,
+      "options": [
+
+      ]
+    },
+    {
+      "name": "phoneNumber",
+      "required" : true,
+      "hint": "Phone Number",
+      "type": "phone",
+      "hasOptions": false,
+      "options": [
+
+      ]
+    },
+    {
+      "name": "vehicleType",
+      "required" : true,
+      "hint": "Phone Number",
+      "type": "String",
+      "hasOptions": true,
+      "options": [
+        "Brand New",
+        "Used",
+        "Rebuilt"
+      ]
+    }
+  ]
+}
