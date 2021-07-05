@@ -38,11 +38,12 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.loadafrica.2eco_admin"
+        applicationId "com.loadafrica.afrovation_admin"
         minSdkVersion 20
         targetSdkVersion 28
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
+        multiDexEnabled true
     }
 
     buildTypes {
@@ -91,7 +92,7 @@ android {
 //        }
 //        AFRO {
 //            dimension "app"
-//            applicationId "com.loadafrica.2eco_admin"
+//            applicationId "com.loadafrica.afrovation_admin"
 //            versionNameSuffix "-2ecoadmin"
 //            ext {
 //                DEV = "04cfe9a0bdf509a55b5e4d43a9ac8229"
@@ -111,5 +112,6 @@ android {
 
     dependencies {
         implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+        implementation "androidx.multidex:multidex:2.0.1"
     }
 }

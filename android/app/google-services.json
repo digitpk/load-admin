@@ -360,6 +360,38 @@
     },
     {
       "client_info": {
+        "mobilesdk_app_id": "1:934727371757:android:dfc0589e3d15e1955975e4",
+        "android_client_info": {
+          "package_name": "com.ipositadist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "934727371757-s705noeemq086hhijjt94hb1f32kmsfl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC24dG5KzEXyUPPE_s_In8N7myFSyV5ZEE"
+        },
+        {
+          "current_key": "AIzaSyC5OhEDXU-ujtoDJaiXn7Bh7pr6zVfk2Bk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "934727371757-s705noeemq086hhijjt94hb1f32kmsfl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:934727371757:android:4e0405aae11e6da2",
         "android_client_info": {
           "package_name": "com.ivorypostcp"
@@ -523,6 +555,70 @@
         "mobilesdk_app_id": "1:934727371757:android:aefeabb9ad6adf17",
         "android_client_info": {
           "package_name": "com.loadafrica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "934727371757-s705noeemq086hhijjt94hb1f32kmsfl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC24dG5KzEXyUPPE_s_In8N7myFSyV5ZEE"
+        },
+        {
+          "current_key": "AIzaSyC5OhEDXU-ujtoDJaiXn7Bh7pr6zVfk2Bk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "934727371757-s705noeemq086hhijjt94hb1f32kmsfl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934727371757:android:7fa2564e518f7bb35975e4",
+        "android_client_info": {
+          "package_name": "com.loadafrica.afrovation_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "934727371757-s705noeemq086hhijjt94hb1f32kmsfl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC24dG5KzEXyUPPE_s_In8N7myFSyV5ZEE"
+        },
+        {
+          "current_key": "AIzaSyC5OhEDXU-ujtoDJaiXn7Bh7pr6zVfk2Bk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "934727371757-s705noeemq086hhijjt94hb1f32kmsfl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934727371757:android:fba447ea6b5cc4fd5975e4",
+        "android_client_info": {
+          "package_name": "com.loadafrica.load_admin"
         }
       },
       "oauth_client": [
